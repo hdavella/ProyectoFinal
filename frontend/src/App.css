@@ -1,0 +1,150 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header{
+  background-color: #2e64a1;
+  padding: 16px 0; /*1rem 0*/
+}
+header h1{
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  font-style: italic;
+  display: inline-block;
+  /* position: relative; */
+  bottom: 35px;
+  margin-left: 10px;
+}
+
+nav{
+  background-color: #004225;
+  margin-bottom: 20px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content:flex-end;
+}
+/* nav ul li{
+  flex-grow: 1;
+} */
+nav ul li a{
+  color: white;
+  text-decoration:solid;
+  padding: 3px 6px;
+  display:block;
+  text-align: center;
+}
+nav ul li a:hover{
+  background-color: rgba(0,0,0,0.3);
+  text-transform: uppercase;
+}
+nav ul li a.activo{
+  background-color: #00A693;
+}
+
+
+.holder{
+  max-width: 860px;
+  margin: 0 auto;
+}
+.imgcentro{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  background-color: #ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0; /*3rem 0 */
+  margin-top: 20px;
+}
+
+h2{
+  color: #2e64a1;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Home */
+.bienvenidos{
+  width: 75%;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.testimonios{
+  width: 25%;
+}
+.columnas{
+  margin-top: 20px;
+  display:flexbox;
+
+  justify-content:flex-start;
+}
+.bienvenidos p{
+  font-size: 20px;
+}
+.testimonio{
+  background-color: #ccc;
+  padding: 16px;
+}
+.testimonio .cita{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  display: block;
+}
+.testimonio .autor{
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: 12px 0;
+}
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

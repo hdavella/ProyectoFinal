@@ -1,0 +1,4 @@
+MYSQL_HOST=localhost
+MYSQL_DB_NAME=proyectofinal
+MYSQL_USER=nodeuser
+MYSQL_PASSWORD=1234
